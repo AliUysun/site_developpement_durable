@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journée de Développement Durable - Ressourcerie Électronique</title>
+    <link rel="stylesheet" href="/css/acceuil.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🌱 Journée de Développement Durable</div>
+            <div class="nav-buttons">
+                <button class="nav-btn">Accueil</button>
+                <div class="dropdown">
+                    <button class="nav-btn">Acheter ▼</button>
+                    <div class="dropdown-content">
+                        <a href="#electromenager">Électroménager</a>
+                        <a href="#informatique">Informatique</a>
+                        <a href="#telephonie">Téléphonie</a>
+                        <a href="#audiovisuel">Audiovisuel</a>
+                        <a href="#batteries">Batteries</a>
+                    </div>
+                </div>
+                <button class="nav-btn">Mettre en vente</button>
+                <a href="connexion.html" class="nav-btn">Se connecter</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Bienvenue à la Journée de Développement Durable</h1>
+            <p>Découvrez nos ateliers éco-responsables et notre ressourcerie d'électronique reconditionnée. Ensemble, construisons un avenir plus durable !</p>
+        </section>
+
+        <section class="ateliers">
+            <h2>Ateliers de la journée</h2>
+            <div class="ateliers-grid">
+                <article class="atelier-card">
+                    <div class="atelier-image">🔧</div>
+                    <div class="atelier-content">
+                        <h3>Atelier Réparation</h3>
+                        <p>Apprenez à réparer vos appareils électroniques avec nos experts. Smartphones, ordinateurs, électroménager : donnez une seconde vie à vos objets !</p>
+                        <div class="atelier-time">⏰ 9h00 - 12h00</div>
+                    </div>
+                </article>
+
+                <article class="atelier-card">
+                    <div class="atelier-image">♻️</div>
+                    <div class="atelier-content">
+                        <h3>Sensibilisation au Recyclage</h3>
+                        <p>Découvrez l'impact environnemental de nos déchets électroniques et les bonnes pratiques pour un numérique plus responsable.</p>
+                        <div class="atelier-time">⏰ 14h00 - 16h00</div>
+                    </div>
+                </article>
+
+                <article class="atelier-card">
+                    <div class="atelier-image">🌍</div>
+                    <div class="atelier-content">
+                        <h3>Écoconception Numérique</h3>
+                        <p>Participez à notre atelier sur les pratiques de développement web éco-responsable et la réduction de l'empreinte carbone numérique.</p>
+                        <div class="atelier-time">⏰ 16h30 - 18h30</div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Prêt à agir pour l'environnement ?</h2>
+            <p>Rejoignez notre communauté et découvrez nos produits électroniques reconditionnés</p>
+            <button class="cta-button">Découvrir nos produits</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Journée de Développement Durable - Équipe Projet BUT Informatique</p>
+            <p>Créé par : [Vos noms ici]</p>
+        </div>
+    </footer>
+
+    <script>
+        // Script minimal pour l'éco-conception
+        document.addEventListener('DOMContentLoaded', function() {
+            // Gestion du bouton CTA
+            const ctaButton = document.querySelector('.cta-button');
+            ctaButton.addEventListener('click', function() {
+                // Redirection vers la page produits (à implémenter)
+                alert('Redirection vers la boutique - À implémenter');
+            });
+
+            // Navigation smooth (optionnel)
+            const navButtons = document.querySelectorAll('.nav-btn');
+            navButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    if (this.textContent.includes('Accueil')) {
+                        // Déjà sur la page d'accueil
+                        e.preventDefault();
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
