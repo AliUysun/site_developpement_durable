@@ -7,3 +7,19 @@ La page de vente les objets sont uniquement eltronique (télevision,telephone,ba
 Il y aura aussi une page ou obn pourra mettre des objets en vente genre en rajoutant le nom de l'objet la decription et possiblement une image (je sais que c'est chaud à faire donc pas sur de le faire)
 
 le footer sera composer de nos noms et jsp pas encore
+
+
+Titre de l'association SecondeChanceAix
+
+8-17h
+
+24h sur 24h
+
+
+Dans la page mise en vente il y a aura une fenetre avec des champs de texte où nous pourons remplir des information comme le type de produit que nous voulons vendres (téléphone, ordianteur, trotinette electrique...) 
+un champ de texte ou nous pourons remplir un court descriptif sur l'objet, un endroit ou l'on peut preciser l'etat de l'objet, ainsi qu'un endroit ou l'on pourra renseigner le prix que l'on souhaite.
+Pour acceder a cette page il faudra etre connecter a son compte.
+
+
+Dans la page acheter il y aura une liste de différents articles comme par exemple un téléphone, un ordinateur... avec à chaque fois le nom de l'appareil, une courte decription, le prix du produit,l'état du produit ainsi qu'une photo. Et de savoir s'il est en stock ou pas.
+Pour acceder a cette page il faudra etre connecter
